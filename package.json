@@ -38,6 +38,7 @@
     "uint8arrays": "^4.0.2"
   },
   "scripts": {
+    "generate": "node scripts/commands.mjs",
     "dev": "node scripts/run.mjs",
     "nextDev": "react-scripts start",
     "ceramic": "CERAMIC_ENABLE_EXPERIMENTAL_COMPOSE_DB='true' ceramic daemon --config ./composedb.config.json",
